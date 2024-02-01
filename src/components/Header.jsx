@@ -1,3 +1,4 @@
+import Button from './UI/Button';
 import { LOGO_IMAGE } from '../constants/AssetConstants';
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
                 <h1>Yummy Meals</h1>
             </div>
             <nav>
-                <button>Cart (0)</button>
+                <Button>Cart (0)</Button>
             </nav>
         </header>
     );
